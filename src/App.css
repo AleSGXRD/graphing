@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 25px;
+}
+
+.route{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.route li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 3px solid #000;
+    border-radius: 50%;
+
+    font-size: 22px;
+    font-weight: bolder;
+    min-width: 50px;
+    min-height: 50px;
+
+}
+.route hr{
+    width: 1px;
+    border: 1px solid #000;
+    background: #000;
+    transform: rotateZ(90deg);
+    padding: 0;
+    margin: 0;
+}
